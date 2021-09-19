@@ -1,0 +1,42 @@
+body {
+  background-color: #E50B4F;
+}
+
+.output_canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.1;
+}
+
+#video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+}
+
+
+.button{
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  background: #000;
+  color: #FFF;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  opacity: 0.5;
+}
+
+.coursor{
+  width: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
